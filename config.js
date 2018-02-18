@@ -7,7 +7,7 @@ config.db = {};
 config.omdb = {};
 
 config.app.env = 'dev';
-config.service.port = 8080;
+config.service.port = 3000;
 
 config.db.url = 'mongodb://localhost:27017/imdb';
 

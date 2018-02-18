@@ -11,6 +11,7 @@ services:
     volumes:
       - .:/app
     tty: true
+    command: bash -c "node app.js"
   mongodb:
     image: mongo:latest
     environment:

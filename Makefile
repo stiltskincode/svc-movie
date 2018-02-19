@@ -1,9 +1,13 @@
-all:
-	docker-compose down
+all: clean
+	
+clean: down
 	docker-compose rm -f
 
-run:
+down:
+	docker-compose down
+
+run: down
 	docker-compose run --service-ports -d web-server node app.js
 
-run_test:
+run_test: down
 	docker-compose run --service-ports web-server npm test

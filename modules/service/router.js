@@ -5,7 +5,6 @@ const handlersComments = require('./handlerComments')
 
 function registerRouter(app, omdb, config) {
     app.route('/').get((req, res, next) => {
-        console.log("asdasdada");
         res.sendStatus(200)
         res.end();
     })

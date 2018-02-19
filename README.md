@@ -1,6 +1,7 @@
 # Movie service
 
-Service collect movie from http://www.omdbapi.com and save into local database
+Service collect movies from http://www.omdbapi.com and save into local database.
+Also user can add comments to movies.
 
 ### Prerequisites
 
@@ -11,7 +12,7 @@ To run service on your local machine you need install
 
 ### Installing
 
-After install docker and docker-compose you can install service on your local machone
+After install docker and docker-compose you can install service on your local machine
 
 ```
 make
@@ -27,7 +28,7 @@ make run
 
 Service should run on port 3000. 
 
-YOu can check if servise works by executing command
+Check if service works by executing command
 
 ```
 curl 127.0.0.1:3000

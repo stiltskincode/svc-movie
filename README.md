@@ -5,7 +5,7 @@ Also user can add comments to movies.
 
 ### Prerequisites
 
-To run service on your local machine you need install
+To run service on your local machine you need to install
 
 * [docker](https://docs.docker.com/install/) 
 * [docker-compose](https://docs.docker.com/compose/install/) 

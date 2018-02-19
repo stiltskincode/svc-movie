@@ -52,7 +52,7 @@ You should see the output
 
 ```
   Service
-3000
+  
     /GET movies
 Node.js app is listening on port:3000
       ✓ it should GET all the movies (44ms)

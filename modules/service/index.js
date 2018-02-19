@@ -47,7 +47,6 @@ class service {
             ]
         }));
         this.app.use(errorHandler)
-        console.log(port);
         this.http_server = this.app.listen(port, () => {
             console.log(`Node.js app is listening on port:${port}`);
         });
